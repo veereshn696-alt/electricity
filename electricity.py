@@ -4,7 +4,7 @@ if len(sys.argv)!=1:
   unit=10
 else :
   script_name=sys.argv[0]
-  unit=sys.argv[1]
+  unit=int(sys.argv[1])
 perunit=5
 bill=unit*perunit
 print("unit =",unit)
